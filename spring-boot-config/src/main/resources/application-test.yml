@@ -1,0 +1,10 @@
+my:
+  greeting: Hello Test Profile!
+  list:
+    values: one,two,three
+db:
+  connection: {connectionString: 'http://__',userName: 'user1',password: 'pwd'}
+  host: 127.0.0.1
+  port: 1400
+management.endpoints.web.exposure.include: '*'
+server.port: 9091

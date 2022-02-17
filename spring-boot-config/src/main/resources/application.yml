@@ -1,0 +1,16 @@
+my:
+ greeting: Hello World!
+ list:
+   values: 1,2,three
+db:
+ connection: {connectionString: 'http://__',userName: 'user1',password: 'pwd'}
+ host: 127.0.0.1
+ port: 1100
+management.endpoints.web.exposure.include: '*'
+server.port: 9091
+
+spring:
+ config:
+  import: optional:configserver:http://localhost:9094
+ application:
+  name: spring-boot-config
