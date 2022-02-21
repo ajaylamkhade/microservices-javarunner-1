@@ -1,0 +1,4 @@
+my:
+ greeting: Called Updated spring-boot-config specific config file of Git Repo via Config Server!
+ list:
+   values: Ajay ,Dhawal ,Jayesh, Kapil, Rajesh
